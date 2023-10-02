@@ -1,0 +1,41 @@
+
+#border_color = "white"
+#bg_color = "128, 128, 128"
+
+title-text: ""
+desktop-color: "#232323"
+terminal-font: "Hack Bold 18"
+terminal-left: "30%"
+terminal-top: "30%"
+terminal-width: "40%"
+terminal-height: "40%"
+terminal-box: "terminal_bg_*.png"
+
++ boot_menu {
+		left = 30%
+		width = 40%
+		top = 30%
+		height = 40%
+
+		item_font = "Norwester Regular 22"
+		item_color = "#fffffe"
+		selected_item_font = "Norwester Regular 22"
+		selected_item_color = "#fbfbfb"
+		icon_width = 48
+		icon_height = 48
+		item_icon_space = 20
+		item_height = 75
+		item_spacing = 10
+		selected_item_pixmap_style = "select_*.png"
+}
+
++ progress_bar {
+        id = "__timeout__"
+
+        left = 0
+        top = 0
+        width = 100%
+        height = 22
+      
+		fg_color = "#454545"
+}
